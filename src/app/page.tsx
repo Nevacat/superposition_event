@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className='w-full h-[100vh] flex items-center justify-center bg-neutral-950'>
-      <div className='w-full h-full  max-w-screen-sm bg-black overflow-y-scroll overflow-x-hidden'>
+      <div className='w-full h-full  max-w-screen-sm bg-black overflow-y-scroll overflow-x-hidden '>
         <div className='min-h-[320px] animate-fade-in'>
           <Image src='/background_text.webp' alt='텍스트 이미지' width={680} height={400} />
         </div>
@@ -91,7 +91,7 @@ export default function Home() {
             className='absolute -right-24 top-40 origin-center animate-orange-spin'
           />
         </div>
-        <div className='min-h-[400px] relative flex flex-col items-center justify-center gap-6'>
+        <div className='min-h-[400px] relative flex flex-col items-center justify-center gap-6 px-4'>
           <div className='text-center text-sm text-white z-30'>
             <p>지금 캔익은 사전 신청을 받고 있어요!</p>
             <p>이메일을 남겨주시면 첫 콘텐츠 오픈 소식을 보내드릴게요</p>

@@ -7,7 +7,7 @@ export default function Home() {
         <div className='min-h-[320px] animate-fade-in'>
           <Image src='/background_text.webp' alt='텍스트 이미지' width={680} height={400} />
         </div>
-        <div className='text-white text-[8.5vw] font-bold text-center translate-y-[-130px] flex flex-col gap-2 animate-fade-in'>
+        <div className='text-white text-[32px] font-bold text-center translate-y-[-130px] flex flex-col gap-2 animate-fade-in'>
           <p>
             예술 구독 서비스 <span className='text-[#9cdd43] '>캔익</span> 오픈!
           </p>

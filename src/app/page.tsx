@@ -92,13 +92,13 @@ export default function Home() {
           />
         </div>
         <div className='min-h-[400px] relative flex flex-col items-center justify-center gap-6'>
-          <div className='text-center text-sm'>
+          <div className='text-center text-sm text-white z-30'>
             <p>지금 캔익은 사전 신청을 받고 있어요!</p>
             <p>이메일을 남겨주시면 첫 콘텐츠 오픈 소식을 보내드릴게요</p>
           </div>
           <div className='flex items-center'>
             <input
-              className='min-w-[260px] h-12 z-10 text-center rounded-tl-full rounded-bl-full bg-white/70 outline-none px-4 text-[#6e28ac] placeholder-[#6e28ac]'
+              className='min-w-[240px] h-12 z-10 text-center rounded-tl-full rounded-bl-full bg-white/70 outline-none px-4 text-[#6e28ac] placeholder-[#6e28ac] focus:placeholder-transparent'
               placeholder='이메일을 입력해주세요.'
             />
             <button className='bg-[#6e28ac] opacity-80 w-[60px] h-12 rounded-r-full flex items-center justify-center'>

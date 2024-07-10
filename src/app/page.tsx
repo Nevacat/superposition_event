@@ -7,12 +7,12 @@ export default function Home() {
         <div className='min-h-[320px] animate-fade-in'>
           <Image src='/background_text.webp' alt='텍스트 이미지' width={680} height={400} />
         </div>
-        <div className='text-white text-3xl text-center translate-y-[-130px] flex flex-col gap-2 animate-fade-in'>
+        <div className='text-white text-[8.5vw] font-bold text-center translate-y-[-130px] flex flex-col gap-2 animate-fade-in'>
           <p>
-            예술 구독 서비스 <span className='text-[#7DD732] '>캔익</span> 오픈!
+            예술 구독 서비스 <span className='text-[#9cdd43] '>캔익</span> 오픈!
           </p>
           <p className='text-sm text-[#fff] opacity-80'>
-            캔익에는 매주 새로운 예술 작품이 업데이트 돼요.
+            캔익에는 매주 새로운 예술 작품이 업데이트 돼요
           </p>
         </div>
         <div className='min-h-[280px] relative translate-y-[-100px]'>
@@ -70,7 +70,7 @@ export default function Home() {
           </p>
           <p className='font-medium text-white/80'>
             매주 신선한 신선작품을 <br />
-            5점씩 보내드릴게요.
+            5점씩 보내드릴게요
           </p>
           <p className='font-bold text-white'>
             여러분의 일상에 <br />
@@ -94,7 +94,7 @@ export default function Home() {
         <div className='min-h-[400px] relative flex flex-col items-center justify-center gap-6'>
           <div className='text-center text-sm'>
             <p>지금 캔익은 사전 신청을 받고 있어요!</p>
-            <p>이메일을 남겨주시면 첫 콘텐츠 오픈 소식을 보내드릴게요.</p>
+            <p>이메일을 남겨주시면 첫 콘텐츠 오픈 소식을 보내드릴게요</p>
           </div>
           <div className='flex items-center'>
             <input
@@ -113,7 +113,7 @@ export default function Home() {
             className='absolute -left-24 bottom-20 animate-orange-spin z-[1px] opacity-30 '
           />
           <Image src='/logo.webp' alt='로고 이미지' width={200} height={200} className='mt-10' />
-          <p className='text-[3vw] text-[#fff] opacity-80 text-center'>
+          <p className='text-[3vw] text-[#fff] opacity-30 text-center'>
             * 이메일은 사전 알림 발송을 위해 수집되며, 이벤트 종료 시 즉시 폐기됩니다.
             <br /> 이메일 제출 시 수집 및 이용에 동의한 것으로 간주됩니다.
           </p>

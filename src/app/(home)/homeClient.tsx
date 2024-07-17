@@ -31,7 +31,7 @@ const HomeClient = () => {
       return;
     }
     try {
-      await axios.post(`${process.env.NEXT_PUBLIC_API_URL}:80/canex/emails`, {
+      await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/canex/emails`, {
         email: email,
       });
       setConfirms({
@@ -50,7 +50,7 @@ const HomeClient = () => {
     const visit = async () => {
       if (!visited) {
         try {
-          await axios.post(`${process.env.NEXT_PUBLIC_API_URL}:80/canex`);
+          await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/canex`);
           setVisited(true);
         } catch (error) {
           console.error(error);

@@ -150,7 +150,7 @@ const HomeClient = () => {
         />
       </div>
       <div className='min-h-[400px] relative flex flex-col items-center justify-center gap-6 px-4'>
-        <div className='text-center text-sm text-white z-30'>
+        <div className='text-center text-sm text-white z-30 whitespace-nowrap'>
           <p>지금 캔익은 사전 신청을 받고 있어요!</p>
           <p>이메일을 남겨주시면 첫 콘텐츠 오픈 소식을 보내드릴게요</p>
         </div>
